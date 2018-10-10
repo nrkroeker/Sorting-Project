@@ -25,7 +25,7 @@ sub sortList {
 # Retrieve input from the user and push it into the array
 print "Please input 10 integers\n";
 for $x (0 .. 9) {
-    print ">";
+    print "> ";
     my $newNumber = <STDIN>;
     chomp $newNumber; # Trim the newline from the user pressing enter
     push @numbers, $newNumber;
